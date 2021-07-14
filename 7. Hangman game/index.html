@@ -18,16 +18,40 @@
         <line x1="40" y1="300" x2="80" y2="300" />
         <line x1="140" y1="20" x2="140" y2="50" />
         <!-- Head  -->
-        <circle r="30" cx="140" cy="84" />
+        <circle r="30" cx="140" cy="84" class="figure-part" />
         <!-- body  -->
-        <line x1="140" y1="120" x2="140" y2="200" />
+        <line x1="140" y1="120" x2="140" y2="200" class="figure-part" />
         <!-- Hands  -->
-        <line x1="120" y1="130" x2="140" y2="150" />
-        <line x1="160" y1="130" x2="140" y2="150" />
+        <line x1="120" y1="130" x2="140" y2="150" class="figure-part" />
+        <line x1="160" y1="130" x2="140" y2="150" class="figure-part" />
         <!-- Legs  -->
-        <line x1="130" y1="230" x2="140" y2="200" />
-        <line x1="150" y1="230" x2="140" y2="200" />
+        <line x1="130" y1="230" x2="140" y2="200" class="figure-part" />
+        <line x1="150" y1="230" x2="140" y2="200" class="figure-part" />
       </svg>
+      <div class="wrong-letters-container">
+        <div class="wrong-letters">
+          <p>Wrong</p>
+          <span>e, r, t, y</span>
+        </div>
+      </div>
+      <div class="word" id="word">
+        <div class="letter">h</div>
+        <div class="letter">e</div>
+        <div class="letter">l</div>
+        <div class="letter">l</div>
+        <div class="letter">o</div>
+      </div>
+    </div>
+    <!-- container for final message  -->
+    <div class="popup-container" id="popup-container">
+      <div class="popup">
+        <h2 class="final-message">You have won</h2>
+        <button id="play-button">Play again</button>
+      </div>
+    </div>
+    <!-- Notification   -->
+    <div class="notification-container" id="notification-container">
+      <p>You have already entered this letter</p>
     </div>
     <script src="main.js"></script>
   </body>
