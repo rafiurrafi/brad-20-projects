@@ -80,3 +80,30 @@ h1 {
 .popup h2 {
   margin-bottom: 10px;
 }
+.popup #play-button {
+  background-color: transparent;
+  border: none;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px 0;
+}
+.popup #Play-button:focus {
+  outline: none;
+}
+.popup #play-button:active {
+  transform: scale(0.98);
+}
+.notification-container {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px 15px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: -60px;
+  transition: transform 0.3s ease-in-out;
+}
+.notification-container.show {
+  transform: translateY(-70px);
+}
